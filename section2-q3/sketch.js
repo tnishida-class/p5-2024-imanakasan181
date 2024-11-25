@@ -7,12 +7,12 @@ function setup() {
   const cream = color(242, 212, 147);
   createCanvas(400, 400);
   background(255);
-  stroke(255);
-  strokeWeight(3);
+  stroke(255);　//枠線の色
+  strokeWeight(3);　//strokeWeight= 枠線の太さ
 
   const cx = width / 2; // 中心は (cx, cy)
   const cy = height / 2;
-  const maxR = min(width, height); // 大きさは幅と高さのうち小さい方
+  const maxR = min(width, height); // 大きさは幅と高さのうち小さい方　maxRは円をかける最大値
 
   drawCircle(black, maxR);
   drawArcs(green, red, maxR * 0.8);
@@ -27,7 +27,7 @@ function setup() {
 }
 
 function drawCircle(c, r){
-  const cx = width / 2; // 中心は (cx, cy)
+  const cx = width / 2;  // 中心は (cx, cy)
   const cy = height / 2;
   fill(c);
   ellipse(cx, cy, r, r);

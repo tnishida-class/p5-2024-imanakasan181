@@ -14,8 +14,8 @@ function setup() {
   }
   else{fill(255);
   }
-    noStroke();
-    rect(0, i * d, width, (i + 1) * d);//width=270
+   noStroke();
+    rect(0, i * d, width, (i + 1) * d);
   }
 
   fill(blue);
