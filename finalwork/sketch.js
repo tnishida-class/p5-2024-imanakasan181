@@ -68,7 +68,7 @@
      isHit(px, py) {
          let d = dist(px, py, this.x, this.y);
          return d < this.size / 2;
-     }　//クリック位置が敵の位置に当たっているか判定する
+     }　//クリック位置が敵の位置に当たっているかを判定する
  }
 
 
